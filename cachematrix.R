@@ -46,7 +46,7 @@ cacheSolve <- function(x, ...) {
   # generic message for everything else
   else
   {
-    m <- message("Inverse not possible; determinant is 0")
+    m <- message("Inverse not possible")
     x$setInverse(m)
   }
   
